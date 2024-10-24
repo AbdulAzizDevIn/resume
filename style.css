@@ -3,6 +3,10 @@ body {
     font-size: 14px;
     max-width: 960px;
     margin: auto;
+    
+}
+body.no-scroll {
+    overflow: hidden
 }
 h1 {
     font-size: 3em;
