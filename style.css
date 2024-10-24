@@ -4,12 +4,6 @@ body {
     max-width: 960px;
     margin: auto;
 }
-
-header {
-    text-align: center;
-    margin: auto 2em;
-}
-
 h1 {
     font-size: 3em;
     letter-spacing: .6em;
@@ -22,18 +16,19 @@ h2 {
     padding-bottom: 1em;
 }
 
+h3 {
+    font-size: 1em;
+    padding-bottom: 1em;
+}
+
 main { 
     display: grid;
     grid-template-columns: 40% 60%;
     margin-top: 3em;
 }
-
-article {
-    padding: 1em;
-}
-
-#mainLeft {
-    border-right: 1px solid lightgray;
+header {
+    text-align: center;
+    margin: auto 2em;
 }
 
 section {
@@ -45,7 +40,7 @@ i {
 }
 
 p {
-    margin: .2em auto;
+    margin: .2em auto
 }
 
 hr {
@@ -54,12 +49,10 @@ hr {
     height: 1px;
 }
 
-h3 {
+h1, h2{
     font-weight: 100;
     margin-bottom: 0;
 }
-
-footer {
-    text-align: center;
-    margin-top: 2em;
+#mainLeft {
+    border-right: 1px solid lightgray;
 }
